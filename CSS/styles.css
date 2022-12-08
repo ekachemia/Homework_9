@@ -1,0 +1,42 @@
+.page{
+    font-family: 'Arial';
+    width: 100%;
+    height: 100vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space_between{
+    display: flex;
+    justify-content: space-between;
+}
+.space_evenly{
+    display: flex;
+    justify-content: space-evenly
+}
+.container{
+    height: auto;
+    width: 80%;
+    padding: 35px;
+}
+.color_page2{
+    background-color: #F6F6F6;
+}
+.right_side{
+    width: 380px;
+    height: auto;
+    padding-bottom: 12%;
+    flex-direction: column;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 57.6px;
+}
+p{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 32.5px;
+}
